@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Link css -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Title -->
+    <title>Online Shopping Page</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="top-menu">
+        <div>
+          <img
+            src="../../../assets/images/ShoppingImages/logo.png"
+            alt="lennin"
+          />
+        </div>
+        <div class="page">
+          <a href="#">Sản phẩm</a>
+          <a href="#">Sale</a>
+          <a href="#">Thư viện</a>
+          <a href="#">Giới thiệu</a>
+        </div>
+        <div class="icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <a href="cart.html">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+          <a href="login/login.html">
+            <i class="fa-solid fa-user" id="users"></i>
+          </a>
+          <div class="lines"></div>
+          <i class="fa-solid fa-globe"></i>
+        </div>
+      </div>
+
+      <div class="main-content">
+        <div class="selector">
+          <a href="#" id="highlight">Deck</a>
+          <a href="#">Accessories</a>
+          <a href="#">Clothing</a>
+          <a href="#">S/S 2022</a>
+          <a href="#">S/S 2021</a>
+          <a href="#">S/S 2020</a>
+          <a href="#">S/S 2019</a>
+          <a href="#">Tất cả</a>
+          <div class="wrap_search">
+            <input
+              type="text"
+              placeholder="Search price..."
+              id="Search_Prices"
+            />
+            <select
+              class="form-select-sm"
+              id="selection"
+              aria-label="Default select example"
+            >
+              <option selected>ALL</option>
+              <option value="1" id="Done_Notes">100000</option>
+              <option value="2" id="Doing_Notes">200000</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="products"></div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+    <script type="module" src="searchPrice.js"></script>
+  </body>
+</html>

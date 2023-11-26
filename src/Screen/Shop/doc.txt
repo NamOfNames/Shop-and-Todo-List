@@ -1,0 +1,13 @@
+Phương thức mảng trong JavaScript:
+
+Map, find, fill, filter, reducer, foreach, concat, some, every
+
+map == foreach: lặp tất cả những item trong Mảng
+map: trả về cho mình 1 mảng mới
+foreach: trả về mảng mà mình yêu cầu
+===> vòng lặp vô hạn
+
+callback: gọi lại
+==> callback hell
+
+filter ==> search
